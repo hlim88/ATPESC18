@@ -1,0 +1,15 @@
+    runame="wall_wood"
+    prec="double"
+    alpha=8.2e-08
+    lenx=0.25
+    dx=0.01
+    dt=100
+    maxt=55800
+    bc0=233.15
+    bc1=294.261
+    ic="const(294.261)"
+    alg="ftcs"
+    savi=1000
+    save=0
+    outi=100
+    noout=0
