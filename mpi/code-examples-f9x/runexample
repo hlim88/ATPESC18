@@ -1,0 +1,5 @@
+#! /bin/bash
+# A simple test, for 1k ranks
+# Use queue training for vesta
+# Use queue default for cetus and mira
+qsub -A ATPESC2017 -q training -t 5 -n 64 --mode script ./sampleruns

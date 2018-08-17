@@ -1,0 +1,30 @@
+Examples for the advanced MPI class, 2017.
+
+2-D decomposition examples, with variations for different send modes.
+Designed to permit running multiple methods in a simple program to
+simplify comparison tests.
+
+There are versions in C and in Fortran 2003, in code-examples-c and
+code-examples-f9x respectively.
+
+Based on the 2-d Life code, but with some changes.
+
+Building the examples
+---------------------
+The "configure" script should be used to create the Makefiles.  It will often be
+able to determine the compilers needed for MPI programs, but if not, specify
+the compiler for C programs using MPICC and for Fortran programs with MPIFORT.
+For example, on the Blue Waters system, a Cray XE6/XK7 system, this configure
+line is used:
+
+    ./configure MPICC=cc MPIFORT=ftn
+
+cd to either code-examples-c (for the C examples) or code-examples-f9x (for
+the Fortran examples) and run make.
+
+Running the examples
+--------------------
+In each code directory, the script "runexample" submits a job that runs the
+script "sampleruns" to the batch queue for vesta.  Modify these scripts to
+change the system on which the run is made and the specifics of the runs
+performed.

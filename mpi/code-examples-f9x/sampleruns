@@ -1,0 +1,16 @@
+#! /bin/bash
+echo ""
+echo "1000 x 1000"
+runjob --np 1024 -p 16 --block $COBALT_PARTNAME : mlife2d -x 1000 -y 1000 -i 100
+echo ""
+echo "2000 x 2000"
+runjob --np 1024 -p 16 --block $COBALT_PARTNAME : mlife2d -x 2000 -y 2000 -i 100
+echo ""
+echo "ABCEDT 1000x1000"
+runjob --np 1024 -p 16 --envs RUNJOB_MAPPING=ABCDET --block $COBALT_PARTNAME : mlife2d -x 1000 -y 1000 -i 100
+echo ""
+echo "TABCDE 1000x1000"
+runjob --np 1024 -p 16 --envs RUNJOB_MAPPING=TABCDE --block $COBALT_PARTNAME : mlife2d -x 1000 -y 1000 -i 100
+echo ""
+echo "TEDCBA 1000x1000"
+runjob --np 1024 -p 16 --envs RUNJOB_MAPPING=TEDCBA --block $COBALT_PARTNAME : mlife2d -x 1000 -y 1000 -i 100

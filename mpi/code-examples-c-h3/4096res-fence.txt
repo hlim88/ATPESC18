@@ -1,0 +1,29 @@
+Mesh size [4096,4096] on process array [4,2] for COMM_WORLD
+Exchange type	Per iter	Exchange	Packtime	Unpacktime
+[0] Pt2pt: 	3.033290e-02	3.836632e-04
+[0] Pt2ptSnd: 	3.023819e-02	3.806853e-04
+[0] Pt2ptUv: 	3.021620e-02	3.675103e-04	2.887726e-05	2.218962e-05
+[0] Fence: 	3.046288e-02	6.067705e-04
+[0] Pt2pt-9: 	3.024435e-02	3.930044e-04
+Mesh size [4096,4096] on process array [4,2] for COMM_WORLD
+Exchange type	Per iter	Exchange	Packtime	Unpacktime
+[0] Pt2pt: 	3.022038e-02	3.710938e-04
+[0] Pt2ptSnd: 	3.024663e-02	3.915453e-04
+[0] Pt2ptUv: 	3.021877e-02	3.585434e-04	2.799511e-05	2.216101e-05
+[0] Fence: 	3.043471e-02	5.743623e-04
+[0] Pt2pt-9: 	3.025520e-02	3.912783e-04
+Mesh size [4096,4096] on process array [4,2] for CART_CREATE
+Exchange type	Per iter	Exchange	Packtime	Unpacktime
+[0] Pt2pt: 	2.746199e-02	4.381132e-04
+[0] Pt2ptSnd: 	2.734631e-02	4.103017e-04
+[0] Pt2ptUv: 	2.731740e-02	3.764391e-04	2.918482e-05	2.170801e-05
+[0] Fence: 	2.752565e-02	5.946350e-04
+[0] Pt2pt-9: 	2.731040e-02	3.831816e-04
+Mesh size [4096,4096] on process array [4,2] for CART_CREATE
+Exchange type	Per iter	Exchange	Packtime	Unpacktime
+[0] Pt2pt: 	2.731179e-02	3.806853e-04
+[0] Pt2ptSnd: 	2.733033e-02	3.820634e-04
+[0] Pt2ptUv: 	2.730409e-02	3.728294e-04	2.782106e-05	2.273321e-05
+[0] Fence: 	2.756955e-02	6.243587e-04
+[0] Pt2pt-9: 	2.732918e-02	3.949428e-04
+Application 4898141 resources: utime ~472s, stime ~8s, Rss ~27540, inblocks ~0, outblocks ~8
