@@ -1,0 +1,5 @@
+Jobid: 49210
+qsub -q skylake_8176 -I -t 240 -n 1
+Tue Jul 31 00:19:49 2018 +0000 (UTC) submitted with cwd set to: /home/hlim/atpesc/fpga/fpga_opencl_trn/OpenCL_ndrange/host
+jobid 49210 submitted from terminal /dev/pts/90
+Tue Jul 31 00:23:53 2018 +0000 (UTC) Info: user delete requested; removing job from the queue

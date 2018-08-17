@@ -1,0 +1,5 @@
+Jobid: 49059
+qsub -q it -I -t 120 -n 1
+Mon Jul 30 22:14:29 2018 +0000 (UTC) submitted with cwd set to: /home/hlim/atpesc/fpga/fpga_opencl_trn/OpenCL_single/host
+jobid 49059 submitted from terminal /dev/pts/83
+Mon Jul 30 22:17:29 2018 +0000 (UTC) Info: user delete requested; removing job from the queue

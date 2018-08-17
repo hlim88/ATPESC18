@@ -1,0 +1,31 @@
+Platform Number: 0
+Platform Name: Intel(R) FPGA SDK for OpenCL(TM)
+Platform Profile: EMBEDDED_PROFILE
+Platform Version: OpenCL 1.0 Intel(R) FPGA SDK for OpenCL(TM), Version 18.0
+Platform Vendor: Intel(R) Corporation
+
+Device Number: 0
+Device Name: EmulatorDevice : Emulated Device
+Device Vendor: Intel(R) Corporation
+Is Device Available?: 1
+Is Device Little Endian?: 1
+Device Max Compute Units: 1
+Device Max Work Item Dimensions: 3
+Device Max Work Group Size: 2147483647
+Device Max Frequency: 1000
+Device Max Mem Alloc Size: 405156225024
+
+
+Launching the kernel...
+
+
+VERIFICATION PASSED!!!
+
+Some Sample of Results
+------------------------------------
+Index 0: Input 1 is 840.187683, Input 2 is 394.382904, Result is 331355.656250
+Index 819: Input 1 is 178.313919, Input 2 is 60.155670, Result is 10726.593750
+Index 1638: Input 1 is 786.326111, Input 2 is 210.920334, Result is 165852.171875
+Index 2457: Input 1 is 191.929123, Input 2 is 51.216774, Result is 9829.990234
+Index 3276: Input 1 is 166.614273, Input 2 is 678.101318, Result is 112981.359375
+Index 4095: Input 1 is 835.887024, Input 2 is 682.699341, Result is 570659.500000
