@@ -1,0 +1,26 @@
+Jobid: 1608903
+qsub -I -A ATPESC2018 -q training -t 60 -n 1
+Tue Aug 07 00:24:36 2018 +0000 (UTC) submitted with cwd set to: /gpfs/mira-home/hyunlim/atpesc/numerics/HandsOnLessons/krylov_amg
+jobid 1608903 submitted from terminal /dev/pts/95
+Tue Aug 07 00:24:53 2018 +0000 (UTC) 
+Tue Aug 07 00:24:53 2018 +0000 (UTC) Command: '/usr/bin/ssh' 'cc113.cooley' '/usr/sbin/cobalt-launcher.py' '--nf' '/var/tmp/cobalt.1608903' '--jobid' '1608903' '--cwd' '/gpfs/mira-home/hyunlim/atpesc/numerics/HandsOnLessons/krylov_amg' '--env' 'COBALT_RESID=375' '--env' 'COBALT_JOBID=1608903' '/bin/sleep' '3600'
+Tue Aug 07 00:24:53 2018 +0000 (UTC) 
+Tue Aug 07 00:24:53 2018 +0000 (UTC) Environment:
+Tue Aug 07 00:24:53 2018 +0000 (UTC) COBALT_RESID=375
+Tue Aug 07 00:24:53 2018 +0000 (UTC) SHELL=/bin/bash
+Tue Aug 07 00:24:53 2018 +0000 (UTC) COBALT_NODEFILE=/tmp/tmpXfMDSc
+Tue Aug 07 00:24:53 2018 +0000 (UTC) COBALT_PARTNAME=cc113.cooley
+Tue Aug 07 00:24:53 2018 +0000 (UTC) COBALT_JOBID=1608903
+Tue Aug 07 00:24:53 2018 +0000 (UTC) COBALT_STARTTIME=1533601479
+Tue Aug 07 00:24:53 2018 +0000 (UTC) LOGNAME=hyunlim
+Tue Aug 07 00:24:53 2018 +0000 (UTC) USER=hyunlim
+Tue Aug 07 00:24:53 2018 +0000 (UTC) COBALT_ENDTIME=1533605079
+Tue Aug 07 00:24:53 2018 +0000 (UTC) COBALT_PARTSIZE=1
+Tue Aug 07 00:24:53 2018 +0000 (UTC) HOME=/home/hyunlim
+Tue Aug 07 00:24:53 2018 +0000 (UTC) COBALT_JOBSIZE=1
+Tue Aug 07 00:24:53 2018 +0000 (UTC) 
+Tue Aug 07 00:24:53 2018 +0000 (UTC) Info: stdin received from /dev/null
+Tue Aug 07 00:24:53 2018 +0000 (UTC) Info: stdout sent to /gpfs/mira-home/hyunlim/atpesc/numerics/HandsOnLessons/krylov_amg/1608903.output
+Tue Aug 07 00:24:53 2018 +0000 (UTC) Info: stderr sent to /gpfs/mira-home/hyunlim/atpesc/numerics/HandsOnLessons/krylov_amg/1608903.error
+Tue Aug 07 00:24:53 2018 +0000 (UTC) 
+Tue Aug 07 01:25:02 2018 +0000 (UTC) Info: maximum execution time exceeded; initiating job termination

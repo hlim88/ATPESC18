@@ -1,0 +1,5 @@
+Jobid: 1608892
+qsub -I -A ATPESC2018 -q training -t 120 -n 1
+Tue Aug 07 00:10:52 2018 +0000 (UTC) submitted with cwd set to: /gpfs/mira-home/hyunlim/atpesc/numerics/HandsOnLessons/krylov_amg
+jobid 1608892 submitted from terminal /dev/pts/95
+Tue Aug 07 00:24:35 2018 +0000 (UTC) Info: user delete requested; removing job from the queue

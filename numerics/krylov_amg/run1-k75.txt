@@ -1,0 +1,54 @@
+Running with these driver parameters:
+  solver ID    = 4
+
+    (nx, ny, nz) = (30, 30, 30)
+    (Px, Py, Pz) = (1, 1, 1)
+    (cx, cy, cz) = (1.000000, 1.000000, 1.000000)
+
+    Problem size = (30 x 30 x 30)
+
+=============================================
+Generate Matrix:
+=============================================
+Spatial Operator:
+  wall clock time = 0.000000 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 0.010000 seconds
+  cpu MFLOPS      = 0.000000
+
+  RHS vector has unit components
+  Initial guess is 0
+=============================================
+IJ Vector Setup:
+=============================================
+RHS and Initial Guess:
+  wall clock time = 0.000000 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 0.000000 seconds
+  cpu MFLOPS      = 0.000000
+
+Solver: DS-GMRES
+HYPRE_GMRESGetPrecond got good precond
+=============================================
+Setup phase times:
+=============================================
+GMRES Setup:
+  wall clock time = 0.010000 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 0.000000 seconds
+  cpu MFLOPS      = 0.000000
+
+=============================================
+Solve phase times:
+=============================================
+GMRES Solve:
+  wall clock time = 0.160000 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 0.160000 seconds
+  cpu MFLOPS      = 0.000000
+
+
+GMRES Iterations = 73
+Final GMRES Relative Residual Norm = 9.029097e-09
+Total time = 0.170000
+
