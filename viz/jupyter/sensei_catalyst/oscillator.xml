@@ -1,0 +1,10 @@
+<sensei>
+  <!-- Custom Analyses-->
+  <!-- Catalyst Analyses -->
+  <analysis type="catalyst"
+            pipeline="slice" array="data" association="cell"
+            image-filename="/home/hyunlim/atpesc/viz/jupyter-ATPESC2018/sensei_catalyst/frames/slice-%ts.png" image-width="512" image-height="512"
+            slice-normal="0,0,1"
+            color-range="0.0001,1.5" color-log="1"
+            enabled="1" />
+</sensei>

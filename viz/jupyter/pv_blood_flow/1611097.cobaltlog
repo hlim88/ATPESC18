@@ -1,0 +1,26 @@
+Jobid: 1611097
+qsub -n 1 -t 30 -A ATPESC2018 -q training --env DISPLAY=:0.0 /soft/visualization/paraview/v5.5.2/bin/pvbatch /home/hyunlim/atpesc/viz/jupyter-ATPESC2018/pv_blood_flow/blood_flow_state_01.py 0 50 /home/hyunlim/atpesc/viz/jupyter-ATPESC2018/pv_blood_flow/frames/
+Thu Aug 09 21:58:27 2018 +0000 (UTC) submitted with cwd set to: /gpfs/mira-home/hyunlim/atpesc/viz/jupyter-ATPESC2018/pv_blood_flow
+Thu Aug 09 21:59:20 2018 +0000 (UTC) 
+Thu Aug 09 21:59:20 2018 +0000 (UTC) Command: '/usr/bin/ssh' 'cc102.cooley' '/usr/sbin/cobalt-launcher.py' '--nf' '/var/tmp/cobalt.1611097' '--jobid' '1611097' '--cwd' '/gpfs/mira-home/hyunlim/atpesc/viz/jupyter-ATPESC2018/pv_blood_flow' '--env' 'COBALT_RESID=370' '--env' 'COBALT_JOBID=1611097' '--env' 'DISPLAY=:0.0' '/soft/visualization/paraview/v5.5.2/bin/pvbatch' '/home/hyunlim/atpesc/viz/jupyter-ATPESC2018/pv_blood_flow/blood_flow_state_01.py' '0' '50' '/home/hyunlim/atpesc/viz/jupyter-ATPESC2018/pv_blood_flow/frames/'
+Thu Aug 09 21:59:20 2018 +0000 (UTC) 
+Thu Aug 09 21:59:20 2018 +0000 (UTC) Environment:
+Thu Aug 09 21:59:20 2018 +0000 (UTC) COBALT_RESID=370
+Thu Aug 09 21:59:20 2018 +0000 (UTC) SHELL=/bin/bash
+Thu Aug 09 21:59:20 2018 +0000 (UTC) COBALT_NODEFILE=/tmp/tmpsLIP4A
+Thu Aug 09 21:59:20 2018 +0000 (UTC) COBALT_PARTNAME=cc102.cooley
+Thu Aug 09 21:59:20 2018 +0000 (UTC) COBALT_JOBID=1611097
+Thu Aug 09 21:59:20 2018 +0000 (UTC) COBALT_STARTTIME=1533851950
+Thu Aug 09 21:59:20 2018 +0000 (UTC) LOGNAME=hyunlim
+Thu Aug 09 21:59:20 2018 +0000 (UTC) USER=hyunlim
+Thu Aug 09 21:59:20 2018 +0000 (UTC) COBALT_ENDTIME=1533853750
+Thu Aug 09 21:59:20 2018 +0000 (UTC) COBALT_PARTSIZE=1
+Thu Aug 09 21:59:20 2018 +0000 (UTC) HOME=/home/hyunlim
+Thu Aug 09 21:59:20 2018 +0000 (UTC) COBALT_JOBSIZE=1
+Thu Aug 09 21:59:20 2018 +0000 (UTC) DISPLAY=:0.0
+Thu Aug 09 21:59:20 2018 +0000 (UTC) 
+Thu Aug 09 21:59:20 2018 +0000 (UTC) Info: stdin received from /dev/null
+Thu Aug 09 21:59:20 2018 +0000 (UTC) Info: stdout sent to /gpfs/mira-home/hyunlim/atpesc/viz/jupyter-ATPESC2018/pv_blood_flow/1611097.output
+Thu Aug 09 21:59:20 2018 +0000 (UTC) Info: stderr sent to /gpfs/mira-home/hyunlim/atpesc/viz/jupyter-ATPESC2018/pv_blood_flow/1611097.error
+Thu Aug 09 21:59:20 2018 +0000 (UTC) 
+Thu Aug 09 21:59:44 2018 +0000 (UTC) Info: task completed normally with an exit code of 0; initiating job cleanup and removal

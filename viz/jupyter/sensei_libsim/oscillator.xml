@@ -1,0 +1,14 @@
+<sensei>
+  <!-- Custom Analyses-->
+  <!-- Libsim Batch Analysis using session file -->
+  <analysis type="libsim" 
+            visitdir="/soft/visualization/visit" 
+            mode="batch" 
+            frequency="1"
+            session="oscillator.session"
+            image-filename="/home/hyunlim/atpesc/viz/jupyter-ATPESC2018/sensei_libsim/frames/%ts.png" 
+            image-width="512" 
+            image-height="512" 
+            image-format="png"
+            enabled="1"/>
+</sensei>
